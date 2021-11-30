@@ -20,20 +20,17 @@ public class Ex6 {
 		System.out.println("false && true = "+(a&&b));
 		System.out.println("true && false = "+(b&&a));
 		System.out.println("true && true = "+(b&&b));
-		System.out.println("================================");
 
 		System.out.println("false || false = "+(a||a));
 		System.out.println("false || true = "+(a||b));
 		System.out.println("true || false = "+(b||a));
 		System.out.println("true || true = "+(b||b));
-		System.out.println("================================");
-
+		
 		System.out.println("false ^ false = "+(a^a));
 		System.out.println("false ^ true = "+(a^b));
 		System.out.println("true ^ false = "+(b^a));
 		System.out.println("true ^ true = "+(b^b));
-		System.out.println("================================");
-
+		
 		System.out.println("!false= "+(!a));
 		System.out.println("!true = "+(!b));
 	}
