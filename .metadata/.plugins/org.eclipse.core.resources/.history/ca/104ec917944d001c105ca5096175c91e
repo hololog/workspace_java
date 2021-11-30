@@ -1,0 +1,16 @@
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a =1;
+
+		System.out.println("아"); 
+		System.out.println('아');
+//		System.out.println('아이티윌')); 
+		System.out.println("아이티윌"); 
+		System.out.printf(%i,a); 
+		
+	}
+
+}

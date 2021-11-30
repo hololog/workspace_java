@@ -1,0 +1,53 @@
+package variable;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * 구구단2단 출력
+		 * printf() println()활용하여출력
+		 * 
+		 * 
+		*/
+		
+		int dan = 2;
+		int dan1 = dan*1;
+		int dan2 = dan*2;
+		int dan3 = dan*3;
+		int dan4 = dan*4;
+		int dan5 = dan*5;
+		int dan6 = dan*6;
+		int dan7 = dan*7;
+		int dan8 = dan*8;
+		int dan9 = dan*9;
+		
+		System.out.println("< "+ dan + "단 >");
+		System.out.println(dan+" * 1 = "+dan1);
+		System.out.println(dan+" * 2 = "+dan2);
+		System.out.println(dan+" * 3 = "+dan3);
+		System.out.println(dan+" * 4 = "+dan4);
+		System.out.println(dan+" * 5 = "+dan5);
+		System.out.println(dan+" * 6 = "+dan6);
+		System.out.println(dan+" * 7 = "+dan7);
+		System.out.println(dan+" * 8 = "+dan8);
+		System.out.println(dan+" * 9 = "+dan9);
+		System.out.println("----------------\n");
+		
+		System.out.printf("< %d단 >\n", dan);
+		System.out.printf("%d * 1 = %d\n", dan, dan1);
+		System.out.printf("%d * 2 = %d\n", dan, dan2);
+		System.out.printf("%d * 3 = %d\n", dan, dan3);
+		System.out.printf("%d * 4 = %d\n", dan, dan4);
+		System.out.printf("%d * 5 = %d\n", dan, dan5);
+		System.out.printf("%d * 6 = %d\n", dan, dan6);
+		System.out.printf("%d * 7 = %d\n", dan, dan7);
+		System.out.printf("%d * 8 = %d\n", dan, dan8);
+		System.out.printf("%d * 9 = %d", dan, dan9);
+		
+		
+		
+	}
+
+}

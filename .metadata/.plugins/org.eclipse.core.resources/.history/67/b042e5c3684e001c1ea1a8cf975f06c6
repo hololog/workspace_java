@@ -1,0 +1,41 @@
+package variable;
+
+public class Ex5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * 형변환 :타입변환(Type Casting)
+		 * - ex) "문자열" + 1 -> "문자열" + "1" (묵시적형변환)
+		 * 기본형끼리의 형변환, 참조형끼리의 형변환
+		 * 
+		 * 1. 묵시적 형변환 (=암시적, 자동)\
+		 *  - 작은 데이터 타입에서 큰 데이터 타입으로 변환하는 경우
+		 *  - 별도의 형변환 연산자 불요.
+		 *  - 오류가 발생하지 않으며 원본데이터 그대로 변환됨
+		 *  
+		 * 2. 명시적 형변환	(강제 형변환)
+		 *  - 큰 데이터타입에서 작은 데이터 타입으로 변환하는 경우 
+		 *  - 형변환 연산자 필요 (우변의 데이터앞)
+		 *  - 강제변환 과정에서 원본데이터의 넘침(Overflow)발생하여 원본데이터가 아닌 다른 데이터가 저장될수 있다.
+		 * 
+		 * 
+		*/
+		
+		int a = (int) 100L;
+		System.out.println(a);
+		
+		int b = (int) 22000000000L; //Overflow발생
+//		int b = 22000000000L; //형변환 연산자 필요(명시적 형변환)
+		System.out.println(b);
+		
+		int a1 = 128;
+		byte a2 = 127;
+		
+		a2 = a2;
+		a2 = a1;
+		
+	}
+
+}

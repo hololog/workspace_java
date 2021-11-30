@@ -1,0 +1,33 @@
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * 산술연산자 일반적인 사칙연산이랑 동일
+		 * % 나머지 연산자  
+		 * 
+		*/
+		
+		System.out.println(10+2);
+		System.out.println(10-2);
+		System.out.println(10*2);
+		System.out.println(10/2);
+		System.out.println(10%2);
+		System.out.println(10%3);
+		
+		System.out.println("===================================");
+		
+		System.out.println(Integer.toBinaryString(45));
+		System.out.println(Integer.toBinaryString(25));
+		System.out.println(Integer.toBinaryString(9));
+		System.out.println(45&25);
+//		System.out.println(45|25);
+//		System.out.println(45^25);
+//		System.out.println(~45);
+		
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package variable;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * String 타입
+		 * - 문자열을 표현하기위한 데이터 타입
+		 * - 참조형 (Reference type)
+		 * - 1개 이상이 문자열은 큰 따음표로 표현
+		 * - null string 가능("")<->공백이랑 다름(" ") 
+		 * - 덧셈 연산자로 문자열 결합 가능
+		 * - 
+		 * 
+		*/
+		String s1 =  "String 타입은 char타입과 다르다.";
+		System.out.println(s1);
+		
+	}
+
+}

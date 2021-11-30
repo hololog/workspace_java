@@ -1,0 +1,27 @@
+package typecasting;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 
+		 * 
+		 * 
+		 * 
+		*/
+		
+		short s = 65;
+		char c = (char)s;
+		System.out.println(s);
+		System.out.println(c);
+		
+		short s2 = 0;
+		char c2 = (char)s2;
+		System.out.println(s2);
+		System.out.println(c2);
+		
+		
+	}
+
+}

@@ -1,0 +1,87 @@
+package variable;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * 구구단2단 출력 printf() println()활용하여출력
+		 * 
+		 * 
+		 */
+
+		int dan = 2;
+		int multi1 = dan * 1;
+		int multi2 = dan * 2;
+		int multi3 = dan * 3;
+		int multi4 = dan * 4;
+		int multi5 = dan * 5;
+		int multi6 = dan * 6;
+		int multi7 = dan * 7;
+		int multi8 = dan * 8;
+		int multi9 = dan * 9;
+
+//		System.out.println("< " + dan + "단 >");
+//		System.out.println(dan + " * 1 = " + multi1);
+//		System.out.println(dan + " * 2 = " + multi2);
+//		System.out.println(dan + " * 3 = " + multi3);
+////		System.out.println(dan + " * 3 = " + (dan*3)); // 변수 대신 수식으로 넣을 수도 있음, 괄호는 보기편하라고
+//		System.out.println(dan + " * 4 = " + multi4);
+//		System.out.println(dan + " * 5 = " + multi5);
+//		System.out.println(dan + " * 6 = " + multi6);
+//		System.out.println(dan + " * 7 = " + multi7);
+//		System.out.println(dan + " * 8 = " + multi8);
+//		System.out.println(dan + " * 9 = " + multi9);
+//		System.out.println();
+//		System.out.println("----------\n");
+//
+//		System.out.printf("< %d단 >\n", dan);
+//		System.out.printf("%d * 1 = %d\n", dan, multi1);
+//		System.out.printf("%d * 2 = %d\n", dan, multi2);
+//		System.out.printf("%d * 3 = %d\n", dan, multi3);
+////		System.out.printf("%d * 3 = %d\n", dan, dan*3); // 변수 대신 수식으로 넣을 수도 있음
+//		System.out.printf("%d * 4 = %d\n", dan, multi4);
+////		System.out.printf("%d * %d = %d\n", dan, 4, multi4);
+//		System.out.printf("%d * 5 = %d\n", dan, multi5);
+//		System.out.printf("%d * 6 = %d\n", dan, multi6);
+//		System.out.printf("%d * 7 = %d\n", dan, multi7);
+//		System.out.printf("%d * 8 = %d\n", dan, multi8);
+//		System.out.printf("%d * 9 = %d", dan, multi9);
+		
+		System.out.println("< " + dan + "단 >\t\t" + "< "+(dan+1)+"단 >");
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi1);
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi2);
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi3);
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi4);
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi5);
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi6);
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi7);
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi8);
+		
+		System.out.printf("%d * 1 = %d\t", dan, multi1);
+		System.out.printf("%d * 1 = %d\n", dan+1, multi9);
+		
+		
+		
+		
+
+	}
+
+}

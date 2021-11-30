@@ -1,0 +1,21 @@
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 변수 (variable)
+		 * - 자바에서 사용되는 데이터를 저장하는 메모리공간
+		 * - 한 번에 하나의 데이터만 저장 가능
+		 * 
+		 * 
+		*/
+		int a; //변수 선언 (타입 변수명;)
+		a=1; //초기화 변수값 할당 (=대입연산자)
+		System.out.println(a+1);
+		
+		a=2;
+		System.out.println(a+1);
+	}
+
+}
