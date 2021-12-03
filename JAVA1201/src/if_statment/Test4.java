@@ -54,7 +54,8 @@ public class Test4 {
 		System.out.printf("\"%s학점\"%n",grade);
 		
 		System.out.println("=============================================");
-
+		
+		
 		
 
 	}
