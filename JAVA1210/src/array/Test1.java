@@ -13,7 +13,7 @@ public class Test1 {
 		 */
 
 		int[] arr = { 1, 2, 3, 2, 1 };
-		String deli = "";
+//		String op = "";
 
 		for (int i = 0; i < arr.length; i++) {
 
@@ -22,16 +22,13 @@ public class Test1 {
 			for (int j = 0; j < arr.length; j++) {
 				if (i == j)
 					continue;
+				String op = (arr[i] == arr[j]) ? "= " : (arr[i] > arr[j]) ? "> " : "< ";
 
-				deli = (arr[i] == arr[j]) ? "=" : (arr[i] > arr[j]) ? ">" : "<";
-
-				System.out.print(deli + " ");
+				System.out.print(op);
 			}
 			System.out.println();
 		}
 		System.out.println("=================");
-		
-		
 
 		int[] score = { 80, 100, 50, 90, 77 };
 		String[] name = { "이순신", "홍길동", "강감찬", "김태희", "전지현" };
