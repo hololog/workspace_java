@@ -24,6 +24,7 @@ public class Test1 {
 //		boolean result = pwd.matches(pattern);
 		//2
 		Pattern p = Pattern.compile(pattern);
+		Pattern.matches(pattern, pwd);
 		boolean result = p.matches(pattern, pwd);
 		//3
 		Matcher m = p.matcher(pwd);
