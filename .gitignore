@@ -12,8 +12,7 @@ bin/
 *.xmi
 *.index
 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
-
-
+.metadata/
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse,java,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,java,windows
 
@@ -187,3 +186,7 @@ $RECYCLE.BIN/
 *.index
 *.dat
 *.log
+.metadata/.plugins/org.eclipse.search/dialog_settings.xml
+.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
