@@ -17,6 +17,4 @@
 	<mappers>
 		<mapper resource="sql/sql.xml" />
 	</mappers>
-	
-	
 </configuration>

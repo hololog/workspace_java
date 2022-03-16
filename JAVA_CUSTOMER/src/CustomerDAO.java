@@ -12,21 +12,42 @@ public class CustomerDAO {
 	public Vector select(Map<String, String> param) {
 		SqlSession session = sqlSessionFactory.openSession();
 		
-		List sqlData = session.selectList("Customer.select"); // namespace.id
+		List<CustomerDTO> sqlData = session.selectList("Customer.select", param); // namespace.id
 		
-		System.out.println(sqlData);
+		Vector data = new Vector();	// 최종적으로 return할 데이터
 		
-		Vector data = new Vector();
+		for(CustomerDTO dto : sqlData) {
+			Vector rowData = new Vector();	// 하나의 Row를 생성
+			
+			rowData.add(dto.getIdx());
+			rowData.add(dto.getName());
+			rowData.add(dto.getAge());
+			rowData.add(dto.getEmail());
+			rowData.add(dto.getJumin());
+			
+			data.add(rowData);
+		}
 		
 		session.close();
 		return data;
 	}
 	
 	public boolean insert(CustomerDTO dto) {
-		return true;
+		SqlSession session = sqlSessionFactory.openSession();
+		int insertCnt = session.insert("Customer.insert", dto); // namespace.id, parameter
+		session.commit();
+		session.close();
+		return insertCnt > 0 ? true : false;
 	}
 	
 	public boolean delete(int idx) {
-		return true;
+		SqlSession session = sqlSessionFactory.openSession();
+		int deleteCnt = session.delete("Customer.delete", idx); // namespace.id, parameter
+		session.commit();
+		session.close();
+		return deleteCnt > 0 ? true : false;
 	}
+	
+	
+	
 }
